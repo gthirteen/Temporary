@@ -1,7 +1,7 @@
 -- living room
 CREATE TABLE oph_room (
   id VARCHAR(16),
-  type int,
+  layout int,
   PRIMARY KEY (id)
 );
 
