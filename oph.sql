@@ -1,3 +1,15 @@
+-- living room
+CREATE TABLE oph_room (
+  id VARCHAR(16),
+  type int,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE oph_department (
+  id VARCHAR(16),
+  name VARCHAR(64),
+);
+
 CREATE TABLE oph_elder (
   id VARCHAR(32),
   name VARCHAR(32),
@@ -18,16 +30,5 @@ CREATE TABLE oph_employee (
   joinday DATE,
   leaveday DATE,
   PRIMARY KEY (id)
-);
-
-CREATE TABLE oph_room (
-  id VARCHAR(16),
-  type int,
-  PRIMARY KEY (id)
-);
-
-CREATE TABLE oph_department (
-  id VARCHAR(16),
-  name VARCHAR(64),
 );
 --part I end--
