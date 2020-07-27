@@ -17,9 +17,9 @@ CREATE TABLE oph_elder (
   birthday DATE,
   joinday DATE,
   leaveday DATE,
-  int roomid,
+  int room_id,
   PRIMARY KEY (id),
-  FOREIGN KEY (roomid) REFERENCE oph_room(room_id)
+  FOREIGN KEY (room_id) REFERENCE oph_room(id)
 );
 
 CREATE TABLE oph_employee (
