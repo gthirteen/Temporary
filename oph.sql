@@ -29,6 +29,8 @@ CREATE TABLE oph_employee (
   birthday Date,
   joinday DATE,
   leaveday DATE,
-  PRIMARY KEY (id)
+  department_id VARCHAR(16),
+  PRIMARY KEY (id),
+  FOREIGN KEY (department_id) REFERENCE oph_department(id)
 );
 --part I end--
