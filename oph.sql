@@ -1,3 +1,4 @@
+/* Create tables */
 -- living room
 CREATE TABLE oph_room (
   id VARCHAR(16),
@@ -33,4 +34,8 @@ CREATE TABLE oph_employee (
   PRIMARY KEY (id),
   FOREIGN KEY (department_id) REFERENCE oph_department(id)
 );
---part I end--
+
+
+/* Insert value */
+INSERT INTO oph_room (id, layout) VALUES ('1024', 1), ('1025', 2), ('1026', 3);
+INSERT INTO oph_department (id, name) VALUES ('D128', '医务部'), ('D129', '后勤部'), ('D130', '财务部');
