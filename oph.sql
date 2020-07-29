@@ -8,7 +8,8 @@ CREATE TABLE oph_room (
 
 CREATE TABLE oph_department (
   id VARCHAR(16),
-  name VARCHAR(64)
+  name VARCHAR(64),
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE oph_elder (
