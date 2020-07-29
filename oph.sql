@@ -19,6 +19,7 @@ CREATE TABLE oph_elder (
   birthday DATE,
   joinday DATE,
   leaveday DATE,
+  photo_path varchar(32),
   room_id VARCHAR(16),
   PRIMARY KEY (id),
   FOREIGN KEY (room_id) REFERENCES oph_room(id),
