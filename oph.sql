@@ -46,4 +46,4 @@ INSERT INTO oph_department (id, name) VALUES ('D128', '医务部'), ('D129', '�
 INSERT INTO oph_elder (id, name, sex, birthday, joinday, leaveday,room_id) VALUES
 ('0x7fff', '老王', '男', '1977-01-01', '2010-02-03', NULL, 1024),
 ('0x7c00', '老李', '女', '1977-12-27', '2011-01-29', NULL, 1025),
-('0x0', '老张'， '男', '1950-1-4', '2015-3-4', NULL, 1025);
+('0x0', '老张','男', '1950-1-4', '2015-3-4', NULL, 1025);
